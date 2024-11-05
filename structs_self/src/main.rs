@@ -8,6 +8,7 @@ impl Rect {
         self.width * self.heigh
     }
 }
+
 fn main() {
     let rect = Rect {
         width: 40,
