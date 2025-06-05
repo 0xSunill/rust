@@ -1,7 +1,9 @@
 fn main() {
-    let num = fibonacci(5);
+    let num = fibonacci(10);
     println!("The number is {}", num);
 }
+
+
 
 fn fibonacci(num: i32) -> i32 {
     if num <= 1 {
@@ -16,6 +18,5 @@ fn fibonacci(num: i32) -> i32 {
         a = b;
         b = result;
     }
-
     result
 }
