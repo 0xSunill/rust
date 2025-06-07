@@ -12,6 +12,3 @@ fn display_elements<T: std::fmt::Display>(a: T, b: T) {
 }
 
 
-// fn add_elements<T: std::ops::Add<Output = T>>(a: T, b: T) -> T {
-//     return a + b;
-// }
