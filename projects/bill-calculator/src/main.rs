@@ -1,3 +1,6 @@
 fn main() {
-    println!("Hello, world!");
+    let price = 100;
+    let quantity = 3;
+    let total = price * quantity;
+    println!("Total bill: ₹{}", total);
 }
